@@ -1,5 +1,101 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+  background: rgb(1, 34, 10);
+  margin-top: 10rem;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+  width: 19rem;
+}
+
+.card {
+  width: 19rem;
+  height: 28rem;
+  border-radius: 1rem;
+  background: white;
+ 
+}
+
+#contenedorcarta {
+  font: 10rem/28rem Arial, serif;
+  text-align: center;
+}
+
+.tipoDeCarta-corazon:before {
+  content: "♥";
+  font-size: 6rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 1.5rem;
+  color: red;
+}
+
+.tipoDeCarta-corazon:after {
+  content: "♥";
+  font-size: 6rem;
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1.5rem;
+  color: red;
+  transform: rotate(180deg);
+}
+
+.tipoDeCarta-diamantes:before {
+  content: "♦";
+  font-size: 6rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 1.5rem;
+  color: red;
+}
+
+.tipoDeCarta-diamantes:after {
+  content: "♦";
+  font-size: 6rem;
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1.5rem;
+  color: red;
+  transform: rotate(180deg);
+}
+
+.tipoDeCarta-espada:before {
+  content: "♠";
+  font-size: 6rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 1.5rem;
+  color: black;
+}
+
+.tipoDeCarta-espada:after {
+  content: "♠";
+  font-size: 6rem;
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1.5rem;
+  color: black;
+  transform: rotate(180deg);
+}
+
+.tipoDeCarta-trebols:before {
+  content: "♣";
+  font-size: 6rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 1.5rem;
+  color: black;
+}
+
+.tipoDeCarta-trebols:after {
+  content: "♣";
+  font-size: 6rem;
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1.5rem;
+  color: black;
+  transform: rotate(180deg);
 }
